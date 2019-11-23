@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author zizzari.gabriele
+ * @author perri.christian
  */
 public class Hi extends Thread {
 
