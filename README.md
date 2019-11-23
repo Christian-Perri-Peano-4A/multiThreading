@@ -1,4 +1,4 @@
--ap-## Teoria:
+## Teoria:
 Un thread è un processo che viene eseguito in maniera indipendente dal resto resto del programma in base ai protocolli del sistema operativo.
 Il multithreading è una tecnica di programmazione che si basa sull'utilizzo dei thread per far si che il programma sia più efficente.
 
