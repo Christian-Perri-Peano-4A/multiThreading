@@ -1,4 +1,4 @@
-## Teoria:
+-ap-## Teoria:
 Un thread è un processo che viene eseguito in maniera indipendente dal resto resto del programma in base ai protocolli del sistema operativo.
 Il multithreading è una tecnica di programmazione che si basa sull'utilizzo dei thread per far si che il programma sia più efficente.
 
@@ -8,6 +8,7 @@ Successivamente viene scritto il codice delle classi che si occupano si stampare
 
 ## esercizio2
 In questo esercizio si implementa la classe SAY.
+Alla classe Say si assegna un thread ed il compito di questa classe è stampare una parola passata nei parametri.
 
 ## conclusioni
 La stampa avviene in maniera casuale poiché si creano due diversi thread, dove ognuno viene eseguito in modo indipendente in base al protocollo di esecuzione dei processi, che viene determinato dal sistema operativo.Ed è per questo motivo che nella stampa le stringhe sono stampate in maniera casuale.
