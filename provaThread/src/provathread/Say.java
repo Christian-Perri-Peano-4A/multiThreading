@@ -7,7 +7,7 @@ package provathread;
 
 /**
  *
- * @author zizzari.gabriele
+ * @author perri.christian
  */
 public class Say extends Thread {
 
