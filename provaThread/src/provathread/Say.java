@@ -3,22 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package provathread;
+package classesay;
 
 /**
  *
  * @author perri.christian
  */
-public class Say extends Thread {
-
+class Say extends Thread{
     String parola;
 
     public Say(String parola) {
         this.parola = parola;
     }
-
-    public void run() {
-        System.out.print(parola);
-    }
-
+    public void run(){
+        for(int i=0;i<10;i++){
+            System.out.println(parola);
+        }
+    }    
 }
