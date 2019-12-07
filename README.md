@@ -10,6 +10,7 @@ Successivamente viene scritto il codice delle classi che si occupano si stampare
 In questo esercizio si implementa la classe SAY.
 Alla classe Say si assegna un thread ed il compito di questa classe è stampare una parola passata nei parametri.
 Il risultato è che quando si creano due oggetti con la stessa classe,in questo caso la classe Say,la stampa avviene comunque in maniera casuale. 
+
 output:
 ciao
 ciao
