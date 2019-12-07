@@ -10,6 +10,37 @@ Successivamente viene scritto il codice delle classi che si occupano si stampare
 In questo esercizio si implementa la classe SAY.
 Alla classe Say si assegna un thread ed il compito di questa classe è stampare una parola passata nei parametri.
 Il risultato è che quando si creano due oggetti con la stessa classe,in questo caso la classe Say,la stampa avviene comunque in maniera casuale. 
+output:
+ciao
+ciao
+ciao
+ciao
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+ciao
+ciao
+ciao
+ciao
+ciao
+ciao
 
 ## Conclusioni:
 La stampa avviene in maniera casuale poiché si creano due diversi thread, dove ognuno viene eseguito in modo indipendente in base al protocollo di esecuzione dei processi, che viene determinato dal sistema operativo.Ed è per questo motivo che nella stampa le stringhe sono stampate in maniera casuale.
